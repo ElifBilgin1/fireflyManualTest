@@ -1,0 +1,96 @@
+Test Stratejisi:
+
+Test stratejisi, bir yazılım ürününün veya sisteminin test edilme sürecini planlayan ve yönlendiren bir belgedir. Test stratejisi, hangi test türlerinin uygulanacağını, hangi test seviyelerinin kullanılacağını, test ortamlarının nasıl oluşturulacağını, test verilerinin nasıl hazırlanacağını, test süreçlerinin nasıl yönetileceğini ve diğer testle ilgili detayları içerir.
+
+Bir test stratejisi aşağıdaki temel bileşenleri içerebilir:
+
+Hedef ve Kapsam: Hangi alanlar veya özelliklerin test edileceği belirtilir. Hangi işlevselliğin veya bileşenin test kapsamında olduğu tanımlanır.
+
+Test Seviyeleri: Hangi test seviyelerinin kullanılacağı belirtilir. Örneğin, birim testi, entegrasyon testi, sistem testi ve kabul testi gibi seviyeler ayrıntılı olarak tanımlanır.
+
+Test Türleri: Hangi test türlerinin uygulanacağı belirtilir. Örneğin, fonksiyonel test, performans testi, güvenlik testi gibi türlerin ne zaman ve nasıl gerçekleştirileceği açıklanır.
+
+Test Ortamı: Testlerin yapılacağı ortamların nasıl oluşturulacağı ve yönetileceği belirtilir. Geliştirme ortamı, test ortamı, canlı ortam gibi farklı ortamların tanımları yer alabilir.
+
+Test Verileri: Hangi verilerin kullanılacağı, nasıl oluşturulacağı ve yönetileceği açıklanır. Özellikle farklı senaryoların test edilmesi için hangi veri setlerinin hazırlanacağı belirtilir.
+
+Test Stratejileri: Hangi yaklaşımların ve yöntemlerin test sürecinde kullanılacağı belirtilir. Örneğin, otomasyon test stratejisi, manuel test stratejisi gibi yaklaşımlar tanımlanır.
+
+Raporlama ve İzleme: Hangi metriklerin kullanılacağı, nasıl raporlar üretileceği ve test ilerlemesinin nasıl izleneceği açıklanır.
+
+Risk Yönetimi: Hangi risklerin önceden belirlendiği, bu risklere karşı nasıl önlemler alınacağı ve hangi durumda test stratejisinin güncelleneceği belirtilir.
+
+Test stratejisi, test ekibi, proje yönetimi ve diğer ilgili taraflar arasında iletişimi kolaylaştırır, test sürecini düzenler ve testin başarılı bir şekilde tamamlanmasını sağlamak için bir yol haritası sunar.
+
+
+
+1 - Temel Fonksiyon Testleri:
+
+Vantilatör: Vantilatörün düğmesini kullanarak vantilatörün açılıp kapanmasını ve farklı hız seviyelerini kontrol edin.
+Ampul: Ampulün düğmesini kullanarak ampulün açılıp kapanmasını test edin.
+Klima Sistemi: Klima sistemi düğmesini kullanarak klima sisteminin açılıp kapanmasını ve sıcaklık ayarlarını kontrol edin.
+
+2 - Anahtar ve Fiş Kontrolü:
+
+Anahtarlar: Her bir anahtarı kullanarak hangi cihazı kontrol ettiklerini belirleyin. Anahtarları açıp kapatın ve ilgili cihazın tepki verip vermediğini kontrol edin.
+Fiş Noktaları: Fiş noktalarına uygun cihazları takarak cihazların enerji alıp almadığını kontrol edin.
+
+3 - Senaryo Tabanlı Testler:
+
+Gece Modu: Tüm cihazları kapatıp tüm ampul ve vantilatörleri kapatmak için uygun anahtarları kullanarak bir "gece modu" senaryosu oluşturun.
+Enerji Tasarrufu: Vantilatör ve ampul gibi cihazları enerji tasarrufu için düşük seviyelere ayarlayarak test edin.
+
+4 - Aşırı Yük Testi:
+
+Anahtarları ve fiş noktalarını tüm cihazları aynı anda çalıştıracak şekilde kullanarak, aşırı yük durumunda sistem nasıl tepki veriyor test edin.
+
+5 - Güvenlik Testleri:
+
+Elektriksel Güvenlik: Cihazlar ve anahtarlar üzerinde herhangi bir ısınma, titreşim veya anormallik olup olmadığını kontrol edin.
+Kablo Düzeni: Kablo düzenini kontrol ederek cihazlar arasındaki kabloların düzgün şekilde yerleştirildiğinden emin olun.
+
+6 - Acil Durum Testi:
+
+Anahtar Panosu: Tüm anahtarları ve fiş noktalarını hızlıca kapatmak veya açmak için bir "acil durum" senaryosu oluşturun.
+
+7 - Tüm Fonksiyonların Çalıştığından Emin Olma:
+
+Her bir cihazın, anahtarın ve fiş noktasının düzgün şekilde çalıştığından ve enerji akışının sorunsuz olduğundan emin olun.
+
+
+** Verilmemiş bir kapsam veya gereksinim durumunda, genel bir yaklaşım ve esnek bir test stratejisi oluşturmak gerekebilir. İşte bu tür bir senaryo için olası bir test stratejisi ve yaklaşım:
+
+Test Stratejisi: Genel Donanım Testi Yaklaşımı
+
+Amaç: Odada bulunan vantilatör, ampul, klima sistemi, anahtarlar ve fiş noktalarını test ederek, cihazların doğru çalıştığını ve enerji akışının düzgün olduğunu doğrulamak.
+
+Yaklaşım ve Adımlar:
+
+Donanım Kontrolü:
+
+Her bir cihazın doğru monte edildiğini ve fiziksel durumlarının uygun olduğunu doğrulayın.
+Enerji Akışı Testi:
+
+Her bir anahtarın ve fiş noktasının cihazları düzgün şekilde etkilediğini doğrulayın.
+Anahtarları açıp kapatın ve her cihazın çalıştığını veya enerji akışının kesildiğini kontrol edin.
+Senaryo Tabanlı Testler:
+
+Farklı senaryolarda anahtarları ve fiş noktalarını kullanarak cihazların nasıl tepki verdiğini test edin (örneğin, gece modu, enerji tasarrufu, acil durum).
+Aşırı Yük Testi:
+
+Anahtarları ve fiş noktalarını tüm cihazları aynı anda çalıştıracak şekilde kullanarak, aşırı yük durumunda sistem nasıl tepki veriyor test edin.
+Güvenlik ve Elektriksel Kontroller:
+
+Elektriksel güvenlik kontrolleri yaparak cihazların ve bağlantıların güvenli olduğundan emin olun.
+Kablo düzeni ve bağlantıların sağlamlığı konusunda inceleme yapın.
+Eksiklik Tespiti:
+
+Cihazlar arasındaki herhangi bir eksiklik veya hatalı bağlantı tespit etmeye çalışın.
+Belirsiz Durum Testleri:
+
+Bilinçli olarak belirsiz veya beklenmedik bir durum oluşturarak cihazların nasıl tepki verdiğini test edin.
+Tüm Cihazların Kontrol Edildiğinden Emin Olma:
+
+Her bir cihazın, anahtarın ve fiş noktasının doğru şekilde çalıştığından ve enerji akışının sorunsuz olduğundan emin olun.
+Bu yaklaşım, verilmemiş bir kapsam veya gereksinim durumunda genel bir test stratejisi sunmaktadır. Esneklik ve testlerin doğası gereği değişebilirlik dikkate alındığında, bu yaklaşım test sürecinin güvenliğini sağlar ve ana hedefleri karşılamayı amaçlar. Her bir adımı detaylandırarak ve gerektiğinde daha spesifik senaryolar oluşturarak bu genel stratejiyi uygulayabilirsiniz.
+
